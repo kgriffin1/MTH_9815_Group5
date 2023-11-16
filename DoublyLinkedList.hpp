@@ -106,7 +106,7 @@ public:
             }
         }
         listSize--;
-        T& data = toRemove->data;
+        T data = toRemove->data;
         delete toRemove;
         return data;
     }
