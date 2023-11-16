@@ -49,7 +49,8 @@ int main()
 
     // Removing an element
     std::cout << "Removing element at index 2: ";
-    list.Remove(2);
+    std::cout << list.Remove(2) << std::endl;
+    std::cout << "Now the list is: ";
     for (int i = 0; i < list.Size(); i++) {
         std::cout << list.Get(i) << " ";
     }
@@ -88,7 +89,13 @@ int main()
     std::cout << "Element at index 2: " << dlList.Get(2) << std::endl;
 
     // Removing element
-    std::cout << "Removed element at index 2: " << dlList.Remove(2) << std::endl;
+    std::cout << "Removing element at index 2: ";
+    std::cout << dlList.Remove(2) << std::endl;
+    std::cout << "Now the list is: ";
+    for (int i = 0; i < dlList.Size(); i++) {
+        std::cout << dlList.Get(i) << " ";
+    }
+    std::cout << std::endl;
 
     // Using the iterator
     std::cout << "Iterating through list: ";
