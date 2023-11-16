@@ -89,14 +89,14 @@ public:
             prev->next = temp->next;
         }
         listSize--;
-        T& data = temp->data;
+        T data = temp->data;
         delete temp;
         return data;
     }
 
     int Size() const { return listSize; }
 
-    typename ListIterator<T>::Iterator Iterator() { return typename ListIterator<T>::Iterator(head); }
+    typename ListIterator<T>::Iterator Iterator() { return typename ListIterator<T>::Iterator(head); } //
 };
 
 #endif // LINKEDLIST_HPP
