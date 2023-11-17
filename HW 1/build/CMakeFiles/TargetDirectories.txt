@@ -1,0 +1,3 @@
+/home/ooo/Downloads/HW1/build/CMakeFiles/MTH_9815_HW_1.dir
+/home/ooo/Downloads/HW1/build/CMakeFiles/edit_cache.dir
+/home/ooo/Downloads/HW1/build/CMakeFiles/rebuild_cache.dir
