@@ -1,0 +1,3 @@
+/mnt/c/Users/kevin/SWE_HW2/Reader/out/build/CMakeFiles/Reader.dir
+/mnt/c/Users/kevin/SWE_HW2/Reader/out/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/kevin/SWE_HW2/Reader/out/build/CMakeFiles/rebuild_cache.dir
